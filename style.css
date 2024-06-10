@@ -1,20 +1,32 @@
 * {
     background-color: antiquewhite;
-    text-align: center;
 }
 
-#tengah {
-    text-align: center;
+.ontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-img[id = "foto"] {
+
+.tion {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid antiquewhite;
+    flex: 1;
+}
+
+hr {
+    color: pink;
+}
+
+.foto {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-a[id="cp"] {
-    display: inline-flex;
-    margin-left: 50;
-    margin-right: 50;
+.cenfy {
+    text-align: justify;
+    text-align: center;
 }
