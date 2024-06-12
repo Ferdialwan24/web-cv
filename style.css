@@ -59,15 +59,15 @@ hr {
 }
 
 .ton {
-    display: inline-block;
+    display: inline;
     text-align: center;
     margin-left: 30%;
 
 }
 
 .ton1 {
+    display: inline;
     text-align: center;
-    display: inline-block;
     margin-right: 30%;
 
 }
