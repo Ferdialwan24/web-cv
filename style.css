@@ -3,6 +3,18 @@ body {
     font-family: "Teachers", sans-serif;
 }
 
+button {
+    background-color: skyblue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 hr {
     color: skyblue;
 }
@@ -47,31 +59,15 @@ hr {
 }
 
 .ton {
+    display: inline-block;
     text-align: center;
-    padding: 10px;
     margin-left: 30%;
-    margin-right: 0px;
-    border: 0 solid antiquewhite;
-    flex: 1;
+
 }
 
 .ton1 {
     text-align: center;
-    padding: 10px;
-    margin-left: 0px;
-    margin-right:30%;
-    border: 0 solid antiquewhite;
-    flex: 1;
-}
-
-button {
-    background-color: skyblue;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    padding: 7px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    margin-right: 30%;
+
 }
